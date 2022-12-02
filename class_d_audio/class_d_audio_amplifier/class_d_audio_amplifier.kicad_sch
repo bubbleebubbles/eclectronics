@@ -11949,7 +11949,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8e562725-8780-4eda-b98c-543f303644c1)
   )
-  (text "Quality factor (desired) Q=.707\nfor a critically damped system\n\n\nQactual = .713\n(slightly overdamped)"
+  (text "Quality factor (desired) Q=.707\nfor a critically damped system\n\n\nQactual = .713\n(slightly underdamped)"
     (at 130.81 257.81 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a2784919-5c3e-4b0a-b9c6-95bccdafebc0)
