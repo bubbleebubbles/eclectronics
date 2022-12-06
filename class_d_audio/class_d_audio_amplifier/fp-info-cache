@@ -1,4 +1,4 @@
-20534179348454769
+20547540467331013
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86555,6 +86555,20 @@ varistor SIOV
 2
 2
 audio_amplifier
+AP63203WU-7
+
+
+0
+6
+6
+audio_amplifier
+CUI_TB001-500-02BE
+
+
+0
+2
+2
+audio_amplifier
 INDP125125X600N
 
 
@@ -86646,6 +86660,20 @@ W25Q128JV
 16
 16
 graphics
+guitar1
+
+
+0
+0
+0
+graphics
+guitar2
+
+
+0
+0
+0
+graphics
 mew
 
 
@@ -86654,6 +86682,34 @@ mew
 0
 graphics
 mew_pika
+
+
+0
+0
+0
+graphics
+music
+
+
+0
+0
+0
+graphics
+music_notes
+
+
+0
+0
+0
+graphics
+notes_medium
+
+
+0
+0
+0
+graphics
+notes_small
 
 
 0

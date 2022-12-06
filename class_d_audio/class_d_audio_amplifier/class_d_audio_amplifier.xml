@@ -1,0 +1,1640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/dchadiuk/eclectronics/class_d_audio/class_d_audio_amplifier/class_d_audio_amplifier.kicad_sch</source>
+    <date>Mon 05 Dec 2022 01:57:41 PM</date>
+    <tool>Eeschema 6.0.9-8da3e8f707~117~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>class_d_audio_amplifier.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A105KB8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="MPN">CL10A105KB8NNNC</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="1uF" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="CL10A105KB8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed29af35-bde7-4831-8528-200228b6d9ac</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/kyocera-avx/0603DD106MAT2A/16602926</datasheet>
+      <fields>
+        <field name="MPN">0603DD106MAT2A</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="10uF" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="0603DD106MAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d975178f-00a4-4ab3-9078-a4d3c3149260</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603X104K5RACAUTO7411</datasheet>
+      <fields>
+        <field name="MPN">C0603X104K5RACAUTO7411</field>
+      </fields>
+      <libsource lib="audio_amplifier" part=".1uF" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="C0603X104K5RACAUTO7411"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fe65066-1738-453c-9b9e-bd96e17e3462</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603X104K5RACAUTO7411</datasheet>
+      <fields>
+        <field name="MPN">C0603X104K5RACAUTO7411</field>
+      </fields>
+      <libsource lib="audio_amplifier" part=".1uF" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="C0603X104K5RACAUTO7411"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be8de628-cf9c-4f8e-a056-fc4167590c62</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J226MEA0-01.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM188R60J226MEA0J</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="22uF" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="GRM188R60J226MEA0J"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd59ee17-6ad6-4f86-b327-e646ca11fb63</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J226MEA0-01.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM188R60J226MEA0J</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="22uF" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="GRM188R60J226MEA0J"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77ea80df-ecd7-49a7-97c3-933cd8f93053</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA225MA12-01.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM188R6YA225MA12D</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="2.2uF" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="GRM188R6YA225MA12D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25821c94-4713-4b03-9e3d-95651f4d5e3b</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA225MA12-01.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM188R6YA225MA12D</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="2.2uF" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="GRM188R6YA225MA12D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bf3ee02-c88c-412b-9d14-6bfd77a169c6</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>.082uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_22.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB823</field>
+      </fields>
+      <libsource lib="audio_amplifier" part=".082uF" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="CC0603KRX7R9BB823"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ccf10158-4917-4698-ac4f-f6a6d1714b82</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603X104K5RACAUTO7411</datasheet>
+      <fields>
+        <field name="MPN">C0603X104K5RACAUTO7411</field>
+      </fields>
+      <libsource lib="audio_amplifier" part=".1uF" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="C0603X104K5RACAUTO7411"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9342eadd-4ad2-4f4c-8449-83b13f772b2f</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>820pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="MPN">06035C821JAT2A</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="820pF" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="06035C821JAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7164f67a-9daa-49fe-bdba-db53800735c8</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603X104K5RACAUTO7411</datasheet>
+      <fields>
+        <field name="MPN">C0603X104K5RACAUTO7411</field>
+      </fields>
+      <libsource lib="audio_amplifier" part=".1uF" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="C0603X104K5RACAUTO7411"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69f6d8c2-0fb1-4e23-b3da-ecf3dbfad265</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A105KB8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="MPN">CL10A105KB8NNNC</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="1uF" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="CL10A105KB8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>458f72b7-85be-4a02-8eb4-b424135eaee7</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/kyocera-avx/0603DD106MAT2A/16602926</datasheet>
+      <fields>
+        <field name="MPN">0603DD106MAT2A</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="10uF" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="0603DD106MAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a20d73c-bff9-432a-abff-914516e6550a</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603X104K5RACAUTO7411</datasheet>
+      <fields>
+        <field name="MPN">C0603X104K5RACAUTO7411</field>
+      </fields>
+      <libsource lib="audio_amplifier" part=".1uF" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="C0603X104K5RACAUTO7411"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32dfbdce-c00d-4af5-9c05-9c2cc24623e8</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>5000pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="MPN">08055C502KAT2A</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="5000pF" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="08055C502KAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cceccbe5-c52b-4561-b8fa-1308a73aa4b9</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603X104K5RACAUTO7411</datasheet>
+      <fields>
+        <field name="MPN">C0603X104K5RACAUTO7411</field>
+      </fields>
+      <libsource lib="audio_amplifier" part=".1uF" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="C0603X104K5RACAUTO7411"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2ca2853-bfa4-492c-9aec-46c5b2ca7d65</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED_BLUE</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf</datasheet>
+      <fields>
+        <field name="Description">LED BLUE CLEAR SMD</field>
+        <field name="MPN">LTST-C170TBKT</field>
+      </fields>
+      <libsource lib="eclectronics" part="LED_BLUE" description=""/>
+      <property name="MPN" value="LTST-C170TBKT"/>
+      <property name="Description" value="LED BLUE CLEAR SMD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a781be0-0549-44d8-b179-8a8040835084</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED_BLUE</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf</datasheet>
+      <fields>
+        <field name="Description">LED BLUE CLEAR SMD</field>
+        <field name="MPN">LTST-C170TBKT</field>
+      </fields>
+      <libsource lib="eclectronics" part="LED_BLUE" description=""/>
+      <property name="MPN" value="LTST-C170TBKT"/>
+      <property name="Description" value="LED BLUE CLEAR SMD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf307cda-11e4-4bce-a1e9-29f8059db943</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED_BLUE</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf</datasheet>
+      <fields>
+        <field name="Description">LED BLUE CLEAR SMD</field>
+        <field name="MPN">LTST-C170TBKT</field>
+      </fields>
+      <libsource lib="eclectronics" part="LED_BLUE" description=""/>
+      <property name="MPN" value="LTST-C170TBKT"/>
+      <property name="Description" value="LED BLUE CLEAR SMD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>211e998f-cabb-4952-94d8-68d32bc82146</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED_BLUE</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf</datasheet>
+      <fields>
+        <field name="Description">LED BLUE CLEAR SMD</field>
+        <field name="MPN">LTST-C170TBKT</field>
+      </fields>
+      <libsource lib="eclectronics" part="LED_BLUE" description=""/>
+      <property name="MPN" value="LTST-C170TBKT"/>
+      <property name="Description" value="LED BLUE CLEAR SMD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e95961c6-bb56-45c3-a0e1-7312f21bef61</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>audio_amplifier:CUI_TB001-500-02BE</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/tb001-500.pdf</datasheet>
+      <fields>
+        <field name="MPN">TB001-500-02BE</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="Conn_01x02" description="TERMINAL BLOCK, SCREW TYPE, 5.00"/>
+      <property name="MPN" value="TB001-500-02BE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb4dbc25-7462-4950-a0da-8928cdd1f052</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>audio_amplifier:CUI_TB001-500-02BE</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/tb001-500.pdf</datasheet>
+      <fields>
+        <field name="MPN">TB001-500-02BE</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="Conn_01x02" description="TERMINAL BLOCK, SCREW TYPE, 5.00"/>
+      <property name="MPN" value="TB001-500-02BE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87dc4d9b-e0c9-433a-b001-989c295a5832</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x07</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">PPTC071LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="PPTC071LFBN-RC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1e7ed88-3123-4f76-9ab2-2f86e93e1f06</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">RS1-05-G</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="RS1-05-G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a7ca56f-f3e4-4962-a04b-3d9f2a5da9a7</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02</value>
+      <footprint>audio_amplifier:CUI_TB001-500-02BE</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/tb001-500.pdf</datasheet>
+      <fields>
+        <field name="MPN">TB001-500-02BE</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="Conn_01x02" description="TERMINAL BLOCK, SCREW TYPE, 5.00"/>
+      <property name="MPN" value="TB001-500-02BE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40a5c3c7-a059-45bf-811a-46b89e2fae8c</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54d61fa3-394a-4cbf-9ce8-c30777cdbd93</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>3.9uH</value>
+      <footprint>audio_amplifier:IND_B966AS</footprint>
+      <datasheet>https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundferritetypeforpl/m_ds106c2.ashx</datasheet>
+      <fields>
+        <field name="MPN">#B966AS-3R9N=P3</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="3.9uH" description="Inductor, small symbol"/>
+      <property name="MPN" value="#B966AS-3R9N=P3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01914997-93b7-451f-97a9-bc50aa01f620</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>27uH</value>
+      <footprint>audio_amplifier:INDP125125X600N</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/SRR1260A.pdf</datasheet>
+      <fields>
+        <field name="MPN">SRR1260A-270M</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="27uH" description="Inductor, small symbol"/>
+      <property name="MPN" value="SRR1260A-270M"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c28eac8c-1774-49ab-a5e2-73c2561c1851</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>27uH</value>
+      <footprint>audio_amplifier:INDP125125X600N</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/SRR1260A.pdf</datasheet>
+      <fields>
+        <field name="MPN">SRR1260A-270M</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="27uH" description="Inductor, small symbol"/>
+      <property name="MPN" value="SRR1260A-270M"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62965947-79ee-4c52-949f-578386fae628</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>MCU80N03A-TP</value>
+      <footprint>audio_amplifier:MCU80N03A-TP</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/MCU80N03A(DPAK).pdf</datasheet>
+      <fields>
+        <field name="MPN">MCU80N03A-TP</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="MCU80N03A-TP" description=""/>
+      <property name="MPN" value="MCU80N03A-TP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77b9761f-1bd0-48a5-b993-22597d20f4d9</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>MCU80N03A-TP</value>
+      <footprint>audio_amplifier:MCU80N03A-TP</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/MCU80N03A(DPAK).pdf</datasheet>
+      <fields>
+        <field name="MPN">MCU80N03A-TP</field>
+      </fields>
+      <libsource lib="" part="MCU80N03A-TP_3" description=""/>
+      <property name="MPN" value="MCU80N03A-TP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9229c514-bb04-46fa-8b66-d36f684b62a1</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>MCU80N03A-TP</value>
+      <footprint>audio_amplifier:MCU80N03A-TP</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/MCU80N03A(DPAK).pdf</datasheet>
+      <fields>
+        <field name="MPN">MCU80N03A-TP</field>
+      </fields>
+      <libsource lib="" part="MCU80N03A-TP_2" description=""/>
+      <property name="MPN" value="MCU80N03A-TP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea9f70a6-c166-4a5d-944a-f23c150708e2</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>MCU80N03A-TP</value>
+      <footprint>audio_amplifier:MCU80N03A-TP</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/MCU80N03A(DPAK).pdf</datasheet>
+      <fields>
+        <field name="MPN">MCU80N03A-TP</field>
+      </fields>
+      <libsource lib="" part="MCU80N03A-TP_1" description=""/>
+      <property name="MPN" value="MCU80N03A-TP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adbcd6ea-f969-43d6-a9ba-9e5d63a59da5</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="MPN">RNCP0805FTD1K00</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="1k" description="Resistor, small symbol"/>
+      <property name="MPN" value="RNCP0805FTD1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>400dac9b-f3be-4f18-a6c0-d03d2d52c6d0</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-13200RL</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="200" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0603FR-13200RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95c87220-0447-4656-86ac-6b16843125c6</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="MPN">RNCP0805FTD10K0</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="10k" description="Resistor, small symbol"/>
+      <property name="MPN" value="RNCP0805FTD10K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc9d542a-9b25-49b8-9dcb-db1b12ca6f57</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="MPN">RNCP0805FTD10K0</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="10k" description="Resistor, small symbol"/>
+      <property name="MPN" value="RNCP0805FTD10K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b0b7007-0cbe-414d-8704-7dbe43802c58</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="MPN">RNCP0805FTD10K0</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="10k" description="Resistor, small symbol"/>
+      <property name="MPN" value="RNCP0805FTD10K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>955c38b2-213e-4863-a47e-49da3121cfee</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-13200RL</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="200" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0603FR-13200RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>778649e4-1d91-40e1-8a95-877dbca9c180</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-13200RL</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="200" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0603FR-13200RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>269ff6d6-8fb1-4a07-a8e7-255efc415d39</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="MPN">RNCP0805FTD10K0</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="10k" description="Resistor, small symbol"/>
+      <property name="MPN" value="RNCP0805FTD10K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9c63ead-6b36-45bf-9d1c-aa35e0e36354</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-13200RL</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="200" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0603FR-13200RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca2c85fd-c8e7-45ab-ba33-d0b23bf40c98</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-13200RL</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="200" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0603FR-13200RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35403f83-3d4d-4dda-a54b-8507718ffb9f</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1314</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">36-5006-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330</field>
+      </fields>
+      <libsource lib="formula" part="TP" description=""/>
+      <property name="MFN" value="DK"/>
+      <property name="MPN" value="36-5006-ND"/>
+      <property name="PurchasingLink" value="https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd859f97-9860-4028-ace4-c9040b0d4fd4</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1314</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">36-5006-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330</field>
+      </fields>
+      <libsource lib="formula" part="TP" description=""/>
+      <property name="MFN" value="DK"/>
+      <property name="MPN" value="36-5006-ND"/>
+      <property name="PurchasingLink" value="https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2249e3a-88d5-4f46-8bbb-2f100224239e</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1314</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">36-5006-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330</field>
+      </fields>
+      <libsource lib="formula" part="TP" description=""/>
+      <property name="MFN" value="DK"/>
+      <property name="MPN" value="36-5006-ND"/>
+      <property name="PurchasingLink" value="https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fc95ba4-6a35-45ba-81bb-902af66d9d73</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>Speaker_Out1</value>
+      <footprint>TestPoint:TestPoint_Pad_D3.0mm</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1314</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">36-5006-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330</field>
+      </fields>
+      <libsource lib="formula" part="TP" description=""/>
+      <property name="MFN" value="DK"/>
+      <property name="MPN" value="36-5006-ND"/>
+      <property name="PurchasingLink" value="https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33e27396-4a53-4b97-a691-0c0cbc3c5486</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>Speaker_Out2</value>
+      <footprint>TestPoint:TestPoint_Pad_D3.0mm</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1314</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">36-5006-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330</field>
+      </fields>
+      <libsource lib="formula" part="TP" description=""/>
+      <property name="MFN" value="DK"/>
+      <property name="MPN" value="36-5006-ND"/>
+      <property name="PurchasingLink" value="https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c66ffd8f-b5fc-4290-9638-da1db9f4e570</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>NCP81151MNTBG</value>
+      <footprint>audio_amplifier:NCP81151MNTBG</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/ncp81151-d.pdf</datasheet>
+      <fields>
+        <field name="MPN">NCP81151MNTBG</field>
+      </fields>
+      <libsource lib="" part="NCP81151MNTBG_1" description=""/>
+      <property name="MPN" value="NCP81151MNTBG"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc653e33-d9b8-489e-b70f-28daff3671f1</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AP63205WU-7</value>
+      <footprint>audio_amplifier:AP63203WU-7</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</datasheet>
+      <fields>
+        <field name="MPN">AP63205WU-7</field>
+        <field name="Purchasing Link">https://www.digikey.com/en/products/detail/diodes-incorporated/AP63203WU-7/9858426</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="AP63205WU-7" description="Buck Switching Regulator IC Positive Fixed 5V 1 Output 2A SOT-23-6 Thin, TSOT-23-6"/>
+      <property name="Purchasing Link" value="https://www.digikey.com/en/products/detail/diodes-incorporated/AP63203WU-7/9858426"/>
+      <property name="MPN" value="AP63205WU-7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6eb7880-2f29-4369-bfb1-df8fbe15fe85</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>NCP81151MNTBG</value>
+      <footprint>audio_amplifier:NCP81151MNTBG</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/ncp81151-d.pdf</datasheet>
+      <fields>
+        <field name="MPN">NCP81151MNTBG</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="NCP81151MNTBG" description=""/>
+      <property name="MPN" value="NCP81151MNTBG"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e999326-ab0f-4d5c-832d-0062cdd91fe0</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>PIC24FV16KM202</value>
+      <footprint>audio_amplifier:PIC24FV16KM202</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/PIC24FV16KM204-Family-Data-Sheet-DS30003030C.pdf</datasheet>
+      <fields>
+        <field name="MPN">PIC24FV16KM202-I/SP</field>
+        <field name="Purchasing Link">https://www.digikey.com/en/products/detail/microchip-technology/PIC24FV16KM202-I-SP/3872910</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="PIC24FV16KM202" description=""/>
+      <property name="Purchasing Link" value="https://www.digikey.com/en/products/detail/microchip-technology/PIC24FV16KM202-I-SP/3872910"/>
+      <property name="MPN" value="PIC24FV16KM202-I/SP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>299eb2a3-7d20-4a84-8d96-374f7e9bf4d7</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>8MHz_Crystal</value>
+      <footprint>audio_amplifier:OSC_CSTNE8M00G550000R0</footprint>
+      <datasheet>https://www.murata.com/en/products/productdata/8801161740318/SPEC-CSTNE8M00G550000R0.pdf</datasheet>
+      <fields>
+        <field name="MPN">CSTNE8M00G550000R0</field>
+        <field name="Purchasing Link">https://www.digikey.com/en/products/detail/murata-electronics/CSTNE8M00G550000R0/8747739</field>
+      </fields>
+      <libsource lib="audio_amplifier" part="8MHz_Crystal" description="8 MHz Crystal Resonator, Built in 33pF capacitors"/>
+      <property name="Purchasing Link" value="https://www.digikey.com/en/products/detail/murata-electronics/CSTNE8M00G550000R0/8747739"/>
+      <property name="MPN" value="CSTNE8M00G550000R0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_d_audio_amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f45c1b33-96d7-403a-ad1d-31a0b0625cd2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="MCU80N03A-TP_1">
+      <docs>https://www.mccsemi.com/pdf/Products/MCU80N03A(DPAK).pdf</docs>
+      <footprints>
+        <fp>MCU80N_MCE</fp>
+        <fp>MCU80N_MCE-M</fp>
+        <fp>MCU80N_MCE-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MCU80N03A-TP_1</field>
+        <field name="Footprint">audio_amplifier:MCU80N03A-TP</field>
+        <field name="Datasheet">https://www.mccsemi.com/pdf/Products/MCU80N03A(DPAK).pdf</field>
+        <field name="MPN">MCU80N03A-TP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="MCU80N03A-TP_2">
+      <docs>https://www.mccsemi.com/pdf/Products/MCU80N03A(DPAK).pdf</docs>
+      <footprints>
+        <fp>MCU80N_MCE</fp>
+        <fp>MCU80N_MCE-M</fp>
+        <fp>MCU80N_MCE-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MCU80N03A-TP_2</field>
+        <field name="Footprint">audio_amplifier:MCU80N03A-TP</field>
+        <field name="Datasheet">https://www.mccsemi.com/pdf/Products/MCU80N03A(DPAK).pdf</field>
+        <field name="MPN">MCU80N03A-TP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="MCU80N03A-TP_3">
+      <docs>https://www.mccsemi.com/pdf/Products/MCU80N03A(DPAK).pdf</docs>
+      <footprints>
+        <fp>MCU80N_MCE</fp>
+        <fp>MCU80N_MCE-M</fp>
+        <fp>MCU80N_MCE-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MCU80N03A-TP_3</field>
+        <field name="Footprint">audio_amplifier:MCU80N03A-TP</field>
+        <field name="Datasheet">https://www.mccsemi.com/pdf/Products/MCU80N03A(DPAK).pdf</field>
+        <field name="MPN">MCU80N03A-TP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="NCP81151MNTBG_1">
+      <docs>https://www.onsemi.com/pdf/datasheet/ncp81151-d.pdf</docs>
+      <footprints>
+        <fp>DFN8_2X2_ONS</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP81151MNTBG_1</field>
+        <field name="Footprint">audio_amplifier:NCP81151MNTBG</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/ncp81151-d.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BST" type="unspecified"/>
+        <pin num="2" name="PWM" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="DRVL" type="output"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="SW" type="unspecified"/>
+        <pin num="8" name="DRVH" type="output"/>
+        <pin num="9" name="FLAG" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x07">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part=".082uF">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_22.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">.082uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_22.pdf</field>
+        <field name="MPN">CC0603KRX7R9BB823</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part=".1uF">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603X104K5RACAUTO7411</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">.1uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603X104K5RACAUTO7411</field>
+        <field name="MPN">C0603X104K5RACAUTO7411</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part="10k">
+      <description>Resistor, small symbol</description>
+      <docs>https://www.seielect.com/catalog/sei-rncp.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rncp.pdf</field>
+        <field name="MPN">RNCP0805FTD10K0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part="10uF">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>https://www.digikey.com/en/products/detail/kyocera-avx/0603DD106MAT2A/16602926</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://www.digikey.com/en/products/detail/kyocera-avx/0603DD106MAT2A/16602926</field>
+        <field name="MPN">0603DD106MAT2A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part="1k">
+      <description>Resistor, small symbol</description>
+      <docs>https://www.seielect.com/catalog/sei-rncp.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rncp.pdf</field>
+        <field name="MPN">RNCP0805FTD1K00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part="1uF">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A105KB8NNNC_Spec.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A105KB8NNNC_Spec.pdf</field>
+        <field name="MPN">CL10A105KB8NNNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part="2.2uF">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA225MA12-01.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">2.2uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA225MA12-01.pdf</field>
+        <field name="MPN">GRM188R6YA225MA12D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part="200">
+      <description>Resistor, small symbol</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">200</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</field>
+        <field name="MPN">RC0603FR-13200RL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part="22uF">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J226MEA0-01.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J226MEA0-01.pdf</field>
+        <field name="MPN">GRM188R60J226MEA0J</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part="27uH">
+      <description>Inductor, small symbol</description>
+      <docs>https://www.bourns.com/docs/Product-Datasheets/SRR1260A.pdf</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">27uH</field>
+        <field name="Footprint">audio_amplifier:INDP125125X600N</field>
+        <field name="Datasheet">https://www.bourns.com/docs/Product-Datasheets/SRR1260A.pdf</field>
+        <field name="MPN">SRR1260A-270M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part="3.9uH">
+      <description>Inductor, small symbol</description>
+      <docs>https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundferritetypeforpl/m_ds106c2.ashx</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">3.9uH</field>
+        <field name="Footprint">audio_amplifier:IND_B966AS</field>
+        <field name="Datasheet">https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundferritetypeforpl/m_ds106c2.ashx</field>
+        <field name="MPN">#B966AS-3R9N=P3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part="5000pF">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">5000pF</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://datasheets.kyocera-avx.com/X7RDielectric.pdf</field>
+        <field name="MPN">08055C502KAT2A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part="820pF">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">820pF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://datasheets.kyocera-avx.com/X7RDielectric.pdf</field>
+        <field name="MPN">06035C821JAT2A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part="8MHz_Crystal">
+      <description>8 MHz Crystal Resonator, Built in 33pF capacitors</description>
+      <docs>https://www.murata.com/en/products/productdata/8801161740318/SPEC-CSTNE8M00G550000R0.pdf</docs>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">8MHz_Crystal</field>
+        <field name="Footprint">audio_amplifier:OSC_CSTNE8M00G550000R0</field>
+        <field name="Datasheet">https://www.murata.com/en/products/productdata/8801161740318/SPEC-CSTNE8M00G550000R0.pdf</field>
+        <field name="Purchasing Link">https://www.digikey.com/en/products/detail/murata-electronics/CSTNE8M00G550000R0/8747739</field>
+        <field name="MPN">CSTNE8M00G550000R0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="power_in"/>
+        <pin num="3" name="3" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part="AP63205WU-7">
+      <description>Buck Switching Regulator IC Positive Fixed 5V 1 Output 2A SOT-23-6 Thin, TSOT-23-6</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</docs>
+      <footprints>
+        <fp>AP63203WU-7_DIO</fp>
+        <fp>AP63203WU-7_DIO-M</fp>
+        <fp>AP63203WU-7_DIO-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP63205WU-7</field>
+        <field name="Footprint">audio_amplifier:AP63203WU-7</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</field>
+        <field name="Purchasing Link">https://www.digikey.com/en/products/detail/diodes-incorporated/AP63203WU-7/9858426</field>
+        <field name="MPN">AP63205WU-7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="output"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SW" type="output"/>
+        <pin num="6" name="BST" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part="Conn_01x02">
+      <description>TERMINAL BLOCK, SCREW TYPE, 5.00</description>
+      <docs>https://www.cuidevices.com/product/resource/tb001-500.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint">audio_amplifier:CUI_TB001-500-02BE</field>
+        <field name="Datasheet">https://www.cuidevices.com/product/resource/tb001-500.pdf</field>
+        <field name="MPN">TB001-500-02BE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part="MCU80N03A-TP">
+      <docs>https://www.mccsemi.com/pdf/Products/MCU80N03A(DPAK).pdf</docs>
+      <footprints>
+        <fp>MCU80N_MCE</fp>
+        <fp>MCU80N_MCE-M</fp>
+        <fp>MCU80N_MCE-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MCU80N03A-TP</field>
+        <field name="Footprint">audio_amplifier:MCU80N03A-TP</field>
+        <field name="Datasheet">https://www.mccsemi.com/pdf/Products/MCU80N03A(DPAK).pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part="NCP81151MNTBG">
+      <docs>https://www.onsemi.com/pdf/datasheet/ncp81151-d.pdf</docs>
+      <footprints>
+        <fp>DFN8_2X2_ONS</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP81151MNTBG</field>
+        <field name="Footprint">audio_amplifier:NCP81151MNTBG</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/ncp81151-d.pdf</field>
+        <field name="MPN">NCP81151MNTBG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BST" type="unspecified"/>
+        <pin num="2" name="PWM" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="DRVL" type="output"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="SW" type="unspecified"/>
+        <pin num="8" name="DRVH" type="output"/>
+        <pin num="9" name="FLAG" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amplifier" part="PIC24FV16KM202">
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/PIC24FV16KM204-Family-Data-Sheet-DS30003030C.pdf</docs>
+      <footprints>
+        <fp>SPDIP28_300MC_MCH</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PIC24FV16KM202</field>
+        <field name="Footprint">audio_amplifier:PIC24FV16KM202</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/PIC24FV16KM204-Family-Data-Sheet-DS30003030C.pdf</field>
+        <field name="Purchasing Link">https://www.digikey.com/en/products/detail/microchip-technology/PIC24FV16KM202-I-SP/3872910</field>
+        <field name="MPN">PIC24FV16KM202-I/SP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="*MCLR/RA5" type="bidirectional"/>
+        <pin num="2" name="RA0" type="bidirectional"/>
+        <pin num="3" name="RA1" type="bidirectional"/>
+        <pin num="4" name="RB0" type="bidirectional"/>
+        <pin num="5" name="RB1" type="bidirectional"/>
+        <pin num="6" name="RB2" type="bidirectional"/>
+        <pin num="7" name="RB3" type="bidirectional"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="RA2" type="bidirectional"/>
+        <pin num="10" name="RA3" type="bidirectional"/>
+        <pin num="11" name="RB4" type="bidirectional"/>
+        <pin num="12" name="RA4" type="bidirectional"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="14" name="RB5" type="bidirectional"/>
+        <pin num="15" name="RB6" type="bidirectional"/>
+        <pin num="16" name="RB7" type="bidirectional"/>
+        <pin num="17" name="RB8" type="bidirectional"/>
+        <pin num="18" name="RB9" type="bidirectional"/>
+        <pin num="19" name="RA7" type="bidirectional"/>
+        <pin num="20" name="RA6/VDDCORE" type="power_in"/>
+        <pin num="21" name="RB10" type="bidirectional"/>
+        <pin num="22" name="RB11" type="bidirectional"/>
+        <pin num="23" name="RB12" type="bidirectional"/>
+        <pin num="24" name="RB13" type="bidirectional"/>
+        <pin num="25" name="RB14" type="bidirectional"/>
+        <pin num="26" name="RB15" type="bidirectional"/>
+        <pin num="27" name="AVSS" type="power_in"/>
+        <pin num="28" name="AVDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="eclectronics" part="LED_BLUE">
+      <docs>https://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_BLUE</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf</field>
+        <field name="MPN">LTST-C170TBKT</field>
+        <field name="Description">LED BLUE CLEAR SMD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="formula" part="TP">
+      <docs>http://www.keyelco.com/product-pdf.cfm?p=1314</docs>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TP</field>
+        <field name="Footprint">footprints:tp_1.6mm</field>
+        <field name="Datasheet">http://www.keyelco.com/product-pdf.cfm?p=1314</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">36-5006-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TP" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="audio_amplifier">
+      <uri>/home/dchadiuk/eclectronics/class_d_audio/audio_amplifier.kicad_sym</uri>
+    </library>
+    <library logical="eclectronics">
+      <uri>/home/dchadiuk/eclectronics/kicad/eclectronics.kicad_sym</uri>
+    </library>
+    <library logical="formula">
+      <uri>/home/dchadiuk/olin-electric-motorsports/parts//schematic/formula.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="TP" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="FB" pintype="output"/>
+      <node ref="U3" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="13" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="28" pinfunction="AVDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="Q3" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="TP" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="EN" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="3" name="/DR_EN_H">
+      <node ref="U1" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="RA0" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/DR_EN_L">
+      <node ref="U3" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="RA1" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/ICSP_CLK">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="RB6" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/ICSP_DATA">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U4" pin="14" pinfunction="RB5" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/PWM_H">
+      <node ref="U1" pin="2" pinfunction="PWM" pintype="input"/>
+      <node ref="U4" pin="17" pinfunction="RB8" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/PWM_L">
+      <node ref="U3" pin="2" pinfunction="PWM" pintype="input"/>
+      <node ref="U4" pin="16" pinfunction="RB7" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/RA4">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="RA4" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/RA7">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="19" pinfunction="RA7" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/RB4">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="RB4" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/RB10">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U4" pin="21" pinfunction="RB10" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/RB11">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U4" pin="22" pinfunction="RB11" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/RB12">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U4" pin="23" pinfunction="RB12" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/RB13">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U4" pin="24" pinfunction="RB13" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/audio_buffered_in">
+      <node ref="U4" pin="4" pinfunction="RB0" pintype="bidirectional"/>
+      <node ref="U4" pin="7" pinfunction="RB3" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/audio_filtered">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="RB1" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/audio_in">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="19" name="/speaker+">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="TP" pintype="input"/>
+    </net>
+    <net code="20" name="/speaker-">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L3" pin="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="TP" pintype="input"/>
+    </net>
+    <net code="21" name="/triangle_wave_in">
+      <node ref="U4" pin="6" pinfunction="RB2" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/triangle_wave_out">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="U4" pin="26" pinfunction="RB15" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/~{MCLR}">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="Q4" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="TP" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="FLAG" pintype="unspecified"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="9" pinfunction="FLAG" pintype="unspecified"/>
+      <node ref="U4" pin="27" pinfunction="AVSS" pintype="power_in"/>
+      <node ref="U4" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="power_in"/>
+    </net>
+    <net code="25" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="Q2" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U1" pin="7" pinfunction="SW" pintype="unspecified"/>
+    </net>
+    <net code="26" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="BST" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="28" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="BST" pintype="unspecified"/>
+    </net>
+    <net code="30" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="L3" pin="2" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="Q4" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U3" pin="7" pinfunction="SW" pintype="unspecified"/>
+    </net>
+    <net code="31" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="U4" pin="20" pinfunction="RA6/VDDCORE" pintype="power_in"/>
+    </net>
+    <net code="32" name="Net-(C16-Pad2)">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U4" pin="25" pinfunction="RB14" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U1" pin="8" pinfunction="DRVH" pintype="output"/>
+    </net>
+    <net code="39" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U1" pin="5" pinfunction="DRVL" pintype="output"/>
+    </net>
+    <net code="40" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U3" pin="8" pinfunction="DRVH" pintype="output"/>
+    </net>
+    <net code="41" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U3" pin="5" pinfunction="DRVL" pintype="output"/>
+    </net>
+    <net code="42" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U4" pin="18" pinfunction="RB9" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="*MCLR/RA5" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="Net-(U1-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="BST" pintype="unspecified"/>
+    </net>
+    <net code="45" name="Net-(U4-Pad9)">
+      <node ref="U4" pin="9" pinfunction="RA2" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10" pinfunction="RA3" pintype="bidirectional"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="output"/>
+    </net>
+  </nets>
+</export>
